@@ -1,0 +1,139 @@
+/* Reset dan Layout Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header */
+  .main-header {
+    width: 100%;
+    background-color: #ddd;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .main-nav a,
+  .user-actions a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Banner */
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* jarak antar kategori */
+    padding: 20px;
+    flex-wrap: wrap; /* supaya responsif di layar kecil */
+  }
+  
+  .category {
+    text-align: center;
+  }
+  
+  .category img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .btn-category {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-category:hover {
+    background-color: #333;
+  }
+  
+  
+  /* Produk Terbaik */
+  .produk-terbaik {
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .produk-terbaik h2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .produk-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .produk {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fefefe;
+  }
+  
+  .produk img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f8f8;
+    padding: 30px 20px;
+    text-align: center;
+    color: #444;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
